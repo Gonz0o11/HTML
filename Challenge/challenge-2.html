@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Veterinary Form</legend>
+        <h3>Information of the Animal Onwer</h3>
+        <div>
+          <section>
+            <label for="name">Name:</label>
+            <input type="name" id="name" placeholder="Jhon" required name="name" />
+          </section>
+          <section>
+            <label for="surname">Surname:</label>
+            <input type="surname" id="surname" placeholder="Eltony" required name="surname" />
+          </section>
+          <section>
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" placeholder="123-456-7890" required name="phone" />
+          </section>
+        </div>
+        <h3>Gender</h3>
+        <div>
+          <section>
+            <input type="radio" id="male" name="Gender" value="male" />
+            <label for="male">Male</label>
+          </section>
+          <section>
+            <input type="radio" id="female" name="Gender" value="female" />
+            <label for="female">Female</label>
+          </section>
+        </div>
+        <h3>Detailed Disease Description</h3>
+        <div>
+          <section>
+            <textarea
+              id="description"
+              cols="50"
+              rows="4"
+              placeholder="Write the description here..."
+              name="description"
+            ></textarea>
+          </section>
+        </div>
+        <button>Submit</button>
+      </fieldset>
+      <a href="index.html">Go Home</a>
+    </form>
+  </body>
+</html>
