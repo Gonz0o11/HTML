@@ -1,0 +1,91 @@
+body {
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+    margin: 0; /* margin:設定元素的外邊距 */
+    padding: 0; /* padding:設置元素內部的內邊距 */
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none; /* 設定文字的裝飾 */
+}
+
+a:visited {
+    text-decoration: none; /* 設定文字的裝飾 */
+}
+
+a:active {
+    text-decoration: underline; /* 設定文字的裝飾(下底線) */
+}
+
+a:hover {
+    text-decoration: underline; /* 設定文字的裝飾(下底線) */
+}
+
+.search-bar input:hover {
+    border: none;
+    outline: none; /* 去除額外的焦點外框 */
+    background-color: #5f6368;
+}
+
+.top-bar {
+    color: white;
+    display: flex; /* 使用 flexbox 來排列子元素 */
+    justify-content: flex-start; /* 預設值，對齊主軸線最前端 */
+    text-align: center; /* 使文字在容器內部居中對齊 */
+    align-items: center;
+    margin: 5px;
+    gap: 15px; /* 設置兩個相鄰元素之間的間距 */
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 50px;
+    width: 550px;
+    border-radius: 24px; /* CSS的圓角屬性 */
+    background-color: #4d5156;
+    border: none; /* 設定區塊的邊框 */
+}
+
+.search-bar:hover {
+    background-color: #5f6368;
+}
+
+.search-bar input {
+    flex: 1; /* 適應不同長度的輸入 */
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    background-color: #4d5156;
+    border: none;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.location-bar {
+    color: white;
+}
+
+.buttom-anchor {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
